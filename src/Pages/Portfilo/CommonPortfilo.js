@@ -67,7 +67,7 @@ const CommonPortfilo = ({ condition, items }) => {
                   } mr-4 md:mx-4`}
                   onClick={() => handleSearch("All")}
                 >
-                  All
+                  All 
                 </li>
               
                 <li
