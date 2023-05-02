@@ -17,7 +17,7 @@ import Portfilo from "./Pages/Portfilo/Portfilo";
 import PortfiloTwo from "./Pages/Portfilo/PortfiloTwo";
 import Personal from "./Pages/Personal/Personal";
 import PersonalTwo from "./Pages/Personal/PersonalTwo";
-import CertificateTwo from "./Pages/Certificate/CertificateTwo";
+// import CertificateTwo from "./Pages/Certificate/CertificateTwo";
 import Resume from "./Pages/Resume/Resume";
 import ResumeTwo from "./Pages/Resume/ResumeTwo";
 import NotFound from "./Share/NotFound";
@@ -48,7 +48,7 @@ function App() {
               <Route index element={<AboutTwo />} />
               <Route path="about" element={<AboutTwo />} />
               <Route path="resume" element={<ResumeTwo />} />
-              <Route path="certificate" element={<CertificateTwo />} />
+              {/* <Route path="certificate" element={<CertificateTwo />} /> */}
               {/* <Route path="blogs" element={<BlogTwo />} /> */}
               <Route path="work" element={<PortfiloTwo />} />
               <Route path="personal" element={<PersonalTwo />} />

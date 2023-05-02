@@ -94,7 +94,7 @@ import { FaRegUser } from "react-icons/fa";
 import { AiOutlineHome } from "react-icons/ai";
 import { FiCodesandbox, FiGrid } from "react-icons/fi";
 import { RiContactsBookLine } from "react-icons/ri";
-import { FaCertificate } from "react-icons/fa"; 
+// import { FaCertificate } from "react-icons/fa"; 
 import { Link, useLocation } from "react-router-dom";
 
 const AllData = () => {
@@ -599,12 +599,12 @@ const AllData = () => {
       link: "/personal",
       icon: <FiGrid />,
     },
-    {
-      id: "05",
-      name: "Certificate",
-      link: "/certificate",
-      icon: <FaCertificate />,
-    },
+    // {
+    //   id: "05",
+    //   name: "Certificate",
+    //   link: "/certificate",
+    //   icon: <FaCertificate />,
+    // },
   ];
 
   // Slider image for Clients
@@ -674,28 +674,51 @@ const AllData = () => {
 
   // educationArray items for Resume page
   const educationArray = [
+    // {
+    //   id: 1,
+    //   date: "2008-2011",
+    //   title: "Bachelor of Commerce",
+    //   place: "RMIT University, HCMC, VN",
+    //   bg: "#FFF4F4",
+    // },
+    
+
+    // {
+    //   id: 2,
+    //   date: "2019 - Now",
+    //   title: "Project Management Courses",
+    //   place: "Udemy",
+    //   bg: "#FFF1FB",
+    // },
+
+    // {
+    //   id: 3,
+    //   date: "2022 - Now",
+    //   title: "Project Management Courses",
+    //   place: "Linkedin Learning",
+    //   bg: "#FFF4F4",
+    // },
     {
       id: 1,
-      date: "2008-2011",
-      title: "Bachelor of Commerce",
-      place: "RMIT University, HCMC, VN",
-      bg: "#FFF4F4",
-    },
+      date: "Jul 2017 - Jun 2022",
+      title: "Project Manager",
+      place: "TPF GROUP",
+      bg: "#EEF5FA",
 
+    },
     {
       id: 2,
-      date: "2019 - Now",
-      title: "Project Management Courses",
-      place: "Udemy",
-      bg: "#FFF1FB",
+      date: "May 2013 - Jun 2015",
+      title: "Purchasing Coordinator",
+      place: "TPF GROUP",
+      bg: "#EEF5FA",
     },
-
     {
       id: 3,
-      date: "2022 - Now",
-      title: "Project Management Courses",
-      place: "Linkedin Learning",
-      bg: "#FFF4F4",
+      date: "Feb 2012 - Sep 2012",
+      title: "WMS Admin",
+      place: "ZALORA VIETNAM",
+      bg: "#FFF1FB",
     },
   ];
   // experiencesArray items for Resume page
@@ -705,38 +728,45 @@ const AllData = () => {
       date: "Jul 2022 - Present",
       title: "Project Manager",
       place: "BRICKMATE GROUP",
-      bg: "#EEF5FA",
+      bg: "#FFF4F4",
     },
 
     {
       id: 2,
-      date: "Jul 2017 - Jun 2022",
-      title: "Project Manager",
-      place: "TPF GROUP",
-      bg: "#EEF5FA",
-    },
-
-    {
-      id: 3,
       date: "Jul 2015 - Jun 2017",
       title: "Logistics Coordinator",
       place: "TPF GROUP",
       bg: "#EEF5FA",
     },
     {
-      id: 4,
-      date: "May 2013 - Jun 2015",
-      title: "Purchasing Coordinator",
-      place: "TPF GROUP",
-      bg: "#EEF5FA",
-    },
-    {
-      id: 5,
-      date: "Feb 2012 - Apr 2013",
-      title: "Delivery Coordinator & WMS Admin",
+      id: 3,
+      date: "Oct 2012 - Apr 2013",
+      title: "Delivery Coordinator",
       place: "ZALORA VIETNAM",
-      bg: "#EEF5FA",
+      bg: "#FFF1FB",
     },
+
+    // {
+    //   id: 3,
+    //   date: "Jul 2015 - Jun 2017",
+    //   title: "Logistics Coordinator",
+    //   place: "TPF GROUP",
+    //   bg: "#EEF5FA",
+    // },
+    // {
+    //   id: 4,
+    //   date: "May 2013 - Jun 2015",
+    //   title: "Purchasing Coordinator",
+    //   place: "TPF GROUP",
+    //   bg: "#EEF5FA",
+    // },
+    // {
+    //   id: 5,
+    //   date: "Feb 2012 - Apr 2013",
+    //   title: "Delivery Coordinator & WMS Admin",
+    //   place: "ZALORA VIETNAM",
+    //   bg: "#EEF5FA",
+    // },
 
   ];
   // awardsArray items for Resume page

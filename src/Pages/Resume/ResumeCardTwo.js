@@ -1,5 +1,5 @@
 import React from "react";
-import { MdOutlineBusinessCenter, MdOutlineSchool } from "react-icons/md";
+import { MdOutlineSchool } from "react-icons/md";
 import UseData from "../../Hooks/UseData";
 
 const ResumeCardTwo = () => {
@@ -37,10 +37,10 @@ const ResumeCardTwo = () => {
 
       <div>
         <div className="flex items-center space-x-2 mb-4">
-          <div className="text-6xl text-[#F95054]">
+          {/* <div className="text-6xl text-[#F95054]">
             <MdOutlineBusinessCenter />
-          </div>
-          <h4 className="text-5xl dark:text-white font-medium"> Education </h4>
+          </div> */}
+          <h4 className="text-5xl text-white dark:text-black font-medium"> - </h4>
         </div>
         {/* end flex */}
 

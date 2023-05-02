@@ -90,7 +90,7 @@ const HomeCard = () => {
                 <p className="text-xs text-[#44566C] dark:text-[#A6A6A6]">
                   Vietnamese Name
                 </p>
-                <p className="dark:text-white">Tran Hong Tri</p>
+                <p className="dark:text-white">Trần Hồng Trí</p>
               </div>
             </div>
           </div>
