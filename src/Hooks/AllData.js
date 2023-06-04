@@ -1,15 +1,15 @@
 import { useEffect, useState } from "react";
 // for work_images
-import work1 from "../assets/images/work_images/work-1.png";
-import work2 from "../assets/images/work_images/work-2.png";
-import work3 from "../assets/images/work_images/work-3.png";
-import work4 from "../assets/images/work_images/work-4.png";
-import work101 from "../assets/images/work_images/work-101.png";
-import work102 from "../assets/images/work_images/work-102.png";
-import work103 from "../assets/images/work_images/work-103.png";
-import work104 from "../assets/images/work_images/work-104.png";
-import work105 from "../assets/images/work_images/work-105.png";
-import work201 from "../assets/images/work_images/work-201.png";
+// import work1 from "../assets/images/work_images/work-1.png";
+// import work2 from "../assets/images/work_images/work-2.png";
+// import work3 from "../assets/images/work_images/work-3.png";
+// import work4 from "../assets/images/work_images/work-4.png";
+// import work101 from "../assets/images/work_images/work-101.png";
+// import work102 from "../assets/images/work_images/work-102.png";
+// import work103 from "../assets/images/work_images/work-103.png";
+// import work104 from "../assets/images/work_images/work-104.png";
+// import work105 from "../assets/images/work_images/work-105.png";
+// import work201 from "../assets/images/work_images/work-201.png";
 
 
 
@@ -22,19 +22,20 @@ import workSmall101 from "../assets/images/work_images/small/work-101.png";
 import workSmall102 from "../assets/images/work_images/small/work-102.png";
 import workSmall103 from "../assets/images/work_images/small/work-103.png";
 import workSmall104 from "../assets/images/work_images/small/work-104.png";
-import workSmall105 from "../assets/images/work_images/small/work-105.png";
+// import workSmall105 from "../assets/images/work_images/small/work-105.png";
 import workSmall201 from "../assets/images/work_images/small/work-201.png";
 
 
-// personal_images
-import personal1 from "../assets/images/personal_images/personal-1.png";
-import personal2 from "../assets/images/personal_images/personal-2.png";
-import personal3 from "../assets/images/personal_images/personal-3.png";
+// // personal_images
+// import personal1 from "../assets/images/personal_images/personal-1.png";
+// import personal2 from "../assets/images/personal_images/personal-2.png";
+// import personal3 from "../assets/images/personal_images/personal-3.png";
 
 // personal small images
 import personalSmall1 from "../assets/images/personal_images/small/personal-1.png";
 import personalSmall2 from "../assets/images/personal_images/small/personal-2.png";
 import personalSmall3 from "../assets/images/personal_images/small/personal-3.png";
+import personalSmall4 from "../assets/images/personal_images/small/personal-4.png";
 
 // certificate images
 import certificate1 from "../assets/images/certificate_images/certificate-1.png";
@@ -213,10 +214,24 @@ const AllData = () => {
   // Elements for portfolio section
   const workItems = [
     {
+      id: "201",
+      tag: "Mobile App",
+      title: "Market TV",
+      // img: work201,
+      imgSmall: workSmall201,
+      bg: "#FFFAE9",
+      client: "Malllog",
+      langages: "Swift, Kotlin, MongoDB",
+      link: "https://malllog.net",
+      linkText: "malllog.net",
+      description:
+        "Malllog is a social media platform which entertains users through video sharing content and allows sellers to promote their products through Market TV, Challenges and Matchings.In addition, Malllog provides Marketplace features to sellers hence they can build their stores, manage products and setup contents through Seller CMS admin.",
+    },
+    {
       id: "1",
       tag: "Internal System",
       title: "Fulfilment System",
-      img: work1,
+      // img: work1,
       imgSmall: workSmall1,
       bg: "#DCDDE2",
       client: "TPF Group",
@@ -224,13 +239,29 @@ const AllData = () => {
       link: "https://fulfilment.tpf.com.au/",
       linkText: "fulfilment.tpf.com.au",
       description:
-        "This is my special project, the one that I would love to delegate my whole life for it. Fulfilment system was started from an idea of a system to processed data files and fulfiled membership packges, to a system that continuously brought new pleasant experience and features to sport clubs and commercial clients. Clients always loved using Fulfilment system due to its accuracy and wide range of highly funtional features and of course our service, from legendary Fulfilment Team. With Personalisation system, end-to-end Order Tracking system, Shipment Management system, Loyalty Management system, WMS and Production system, TPF Fulfilment platform was one of strongest platforms in Fulfilment industry in Australia.",
-    },
+        "This is my special project, the one that I would love to delegate my whole life for it with my legendary Fulfilment team.\n\n" +
+        "TPF Sports Fulfillment system is a set of processes, technologies, and personnel used to handle and complete orders for Australian sporting clubs. \n\n" +
+        "This typically includes receiving and processing orders, picking and packing products, shipping them to the customer, and handling returns or exchanges. \n\n" +
+        "Our goal was to ensure that orders are processed quickly, accurately, and efficiently, while also providing a pleasant customer experience to clubs and their members.\n\n" +
+        "Fulfillment systems can be highly complex, with multiple stages of order processing, inventory management, and shipping logistics that need to be carefully coordinated and integrated.\n\n" +
+        "With Personalisation system, Fulfilment Portal, Parcel Tracker, Shipment Management system, Loyalty Management system, WMS and Production system, TPF Sports Fulfilment system was one of strongest Fulfilment platforms in Australia.\n\n" +
+        "URL: https://fulfilment.tpf.com.au/\n" +
+        "Domain: Sports\n" +
+        "Involvement: Phase 2: system improvement and new feature development\n\n" +
+        "Achievements\n" +
+        "-Improving Fulfilment system's functions\n" +
+        "-Building Personalisation system\n" +
+        "-Building Fulfilment Portal for clubs’ self administration\n" +
+        "-Improving Parcel Tracker\n" +
+        "-Building Shipment Management system\n" +
+        "-Building Loyalty Management system\n" +
+        "-Building Production system",
+    },    
     {
       id: "2",
       tag: "Internal System",
       title: "Production System",
-      img: work2,
+      // img: work2,
       imgSmall: workSmall2,
       bg: "#E7D4BD",
       client: "TPF Group",
@@ -245,7 +276,7 @@ const AllData = () => {
       id: "3",
       tag: "Internal System",
       title: "Shipment Management",
-      img: work3,
+      // img: work3,
       imgSmall: workSmall3,
       bg: "#FEF2F2",
       client: "TPF Group",
@@ -259,7 +290,7 @@ const AllData = () => {
       id: "4",
       tag: "Internal System",
       title: "Quotation system",
-      img: work4,
+      // img: work4,
       imgSmall: workSmall4,
       bg: "#E0CAF9",
       client: "TPF Group",
@@ -273,7 +304,7 @@ const AllData = () => {
       id: "101",
       tag: "Web Application",
       title: "Client Fulfilment Portal",
-      img: work101,
+      // img: work101,
       imgSmall: workSmall101,
       bg: "#DCDDE2",
       client: "TPF Sport",
@@ -287,7 +318,7 @@ const AllData = () => {
       id: "102",
       tag: "Web Application",
       title: "Membership Parcel Tracker",
-      img: work102,
+      // img: work102,
       imgSmall: workSmall102,
       bg: "#FFD9E3",
       client: "TPF Sport",
@@ -301,7 +332,7 @@ const AllData = () => {
       id: "103",
       tag: "Web Application",
       title: "Mber+ Platform",
-      img: work103,
+      // img: work103,
       imgSmall: workSmall103,
       bg: "#DCDDE2",
       //bg: "#FFF3FC",
@@ -316,7 +347,7 @@ const AllData = () => {
       id: "104",
       tag: "Web Application",
       title: "AI Color Confirm",
-      img: work104,
+      // img: work104,
       imgSmall: workSmall104,
       bg: "#DCDDE2",
       client: "Brickmate",
@@ -326,34 +357,20 @@ const AllData = () => {
       description:
         "AI Color Confirmation service is a color comparison service which allows users to compare fabric's colors without involvement of colorists. By using algorithm programs, the comparison service will offer time-saving and cost-effective solutions for users as well as objective figures and results.",
     },
-    {
-      id: "105",
-      tag: "Web Application",
-      title: "Malllog Admin Websites",
-      img: work105,
-      imgSmall: workSmall105,
-      bg: "#E9FAFF",
-      client: "Malllog",
-      langages: "Angular, Node JS, MongoDB",
-      link: "https://malllog.net",
-      linkText: "malllog.net",
-      description:
-        "Malllog Admin sites manage various functions of Mobile Apps. The Admin sites include  Sellers Admin and Malllog Admin which together help Sellers and Malllog efficiently manage their stores and applications.",
-    },
-    {
-      id: "201",
-      tag: "Mobile App",
-      title: "Market TV (iOS & Android)",
-      img: work201,
-      imgSmall: workSmall201,
-      bg: "#FFFAE9",
-      client: "Malllog",
-      langages: "Swift, Kotlin, MongoDB",
-      link: "https://malllog.net",
-      linkText: "malllog.net",
-      description:
-        "Malllog is a social media platform which entertains users through video sharing content and allows sellers to promote their products through Market TV, Challenges and Matchings.In addition, Malllog provides Marketplace features to sellers hence they can build their stores, manage products and setup contents through Seller CMS admin.",
-    },
+    // {
+    //   id: "105",
+    //   tag: "Web Application",
+    //   title: "Malllog Admin Websites",
+    //   // img: work105,
+    //   imgSmall: workSmall105,
+    //   bg: "#E9FAFF",
+    //   client: "Malllog",
+    //   langages: "Angular, Node JS, MongoDB",
+    //   link: "https://malllog.net",
+    //   linkText: "malllog.net",
+    //   description:
+    //     "Malllog Admin sites manage various functions of Mobile Apps. The Admin sites include  Sellers Admin and Malllog Admin which together help Sellers and Malllog efficiently manage their stores and applications.",
+    // },
   ];
   const [data, setData] = useState(workItems);
 
@@ -362,13 +379,13 @@ const AllData = () => {
       id: "1",
       tag: "Portfolio",
       title: "Digital Portfolio",
-      img: personal1,
+      // img: personal1,
       imgSmall: personalSmall1,
       bg: "#E9FAFF",
       client: "Josh Tran",
       langages: "React JS",
-      link: "https://jt17-portfolio.vercel.app/",
-      linkText: "jt17-portfolio.vercel.app",
+      link: "https://tranhongtri.vercel.app/",
+      linkText: "tranhongtri.vercel.app",
       description:
         "This is my first digital portfolio and also my first ever React project. Through my portfolio, you can learn more about work projects that I have done and also my personal projects.",
     },
@@ -376,27 +393,41 @@ const AllData = () => {
       id: "2",
       tag: "Portfolio",
       title: "Learning Journey",
-      img: personal2,
+      // img: personal2,
       imgSmall: personalSmall2,
       bg: "#FFFAE9",
       client: "Josh Tran",
       langages: "Next JS",
-      link: "https://jt17-certificate.vercel.app/",
-      linkText: "jt17-certificate.vercel.app",
+      link: "https://tranhongtri-learning.vercel.app/",
+      linkText: "tranhongtri-learning",
       description:
         "This is my Certificate and Client Portfolio project. In this project, you can learn more about my client portfolio and my continuous learning journey.",
     },
     {
       id: "3",
       tag: "E-Commerce",
-      title: "ChipShop",
-      img: personal3,
+      title: "Softdrink Store",
+      // img: personal3,
       imgSmall: personalSmall3,
       bg: "#FFFAE9",
       client: "Josh Tran",
       langages: "Next JS",
-      link: "",
-      linkText: "",
+      link: "https://softdrink.vercel.app/",
+      linkText: "softdrink.vercel.app",
+      description:
+        "This is my personal E-Commerce project. This project will teach me more about programming for a E-Commerce site as well as E-Commerce features.",
+    },
+    {
+      id: "4",
+      tag: "E-Commerce",
+      title: "Today Fruit Store",
+      // img: personal3,
+      imgSmall: personalSmall4,
+      bg: "#F5F6F8",
+      client: "Josh Tran",
+      langages: "Next JS",
+      link: "https://todayfruit-store.vercel.app/",
+      linkText: "todayfruit-store.vercel.app",
       description:
         "This is my personal E-Commerce project. This project will teach me more about programming for a E-Commerce site as well as E-Commerce features.",
     },

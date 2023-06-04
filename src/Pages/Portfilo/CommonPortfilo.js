@@ -197,11 +197,11 @@ const CommonPortfilo = ({ condition, items }) => {
                   <p className="dark:text-white  text-2line font-normal text-[15px] sm:text-sm  ">
                     {singleData?.description}
                   </p>
-                  <img
+                  {/* <img
                     className="w-full md:h-[450px]  h-auto object-cover rounded-xl mt-6"
                     src={singleData.img}
                     alt=""
-                  />
+                  /> */}
                 </div>
               </div>
             </Modal>
