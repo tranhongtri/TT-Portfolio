@@ -659,7 +659,7 @@ Project duration: March 2020 - December 2020
       link: "https://tranhongtri.vercel.app/",
       linkText: "tranhongtri.vercel.app",
       description:
-        "This is my first digital portfolio and also my first ever React project. Through my portfolio, you can learn more about work projects that I have done and also my personal projects.",
+        "Welcome to my digital portfolio, featuring my first-ever React project! Within this portfolio, you'll discover a collection of my professional and personal projects, showcasing my journey and accomplishments.",
     },
     {
       id: "2",
@@ -673,7 +673,7 @@ Project duration: March 2020 - December 2020
       link: "https://tranhongtri-learning.vercel.app/",
       linkText: "tranhongtri-learning",
       description:
-        "This is my Certificate and Client Portfolio project. In this project, you can learn more about my client portfolio and my continuous learning journey.",
+        "Welcome to my Learning Journey and Certificate Portfolio! Within this project, I invite you to explore my continuous learning journey and discover the certifications I've obtained along the way.",
     },
     {
       id: "3",
@@ -687,7 +687,7 @@ Project duration: March 2020 - December 2020
       link: "https://softdrink.vercel.app/",
       linkText: "softdrink.vercel.app",
       description:
-        "This is my personal E-Commerce project. This project will teach me more about programming for a E-Commerce site as well as E-Commerce features.",
+        "Welcome to my personal E-Commerce project! Through this endeavor, I aim to deepen my understanding of programming for E-Commerce sites and explore various E-Commerce features.",
     },
     {
       id: "4",
@@ -701,7 +701,7 @@ Project duration: March 2020 - December 2020
       link: "https://todayfruit-store.vercel.app/",
       linkText: "todayfruit-store.vercel.app",
       description:
-        "This is my personal E-Commerce project. This project will teach me more about programming for a E-Commerce site as well as E-Commerce features.",
+        "Welcome to my personal E-Commerce project! Through this endeavor, I aim to deepen my understanding of programming for E-Commerce sites and explore various E-Commerce features.",
     },
     {
       id: "5",
