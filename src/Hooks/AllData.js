@@ -715,7 +715,7 @@ Project duration: March 2020 - December 2020
       link: "https://tranhongtri-cv.vercel.app/",
       linkText: "tranhongtri-cv",
       description:
-        "This is my CV online.",
+        "To learn more about my qualifications and experience, I invite you to visit my online CV, which can be accessed by visiting this website. There, you will find a comprehensive overview of my professional background, skills, and achievements. Feel free to explore the details of my work history, educational background, and any notable projects or certifications I have acquired. This online CV serves as a convenient platform to showcase my expertise and potential contributions to your organization. Don't hesitate to navigate through the website to gain a deeper understanding of my capabilities and suitability for the desired position.",
     },
   ];
   const [personaldata, setPersonalData] = useState(personalItems);
