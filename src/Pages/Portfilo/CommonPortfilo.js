@@ -72,11 +72,11 @@ const CommonPortfilo = ({ condition, items }) => {
               
                 <li
                   className={`${
-                    test === "Internal System" ? "text-[#FA5252]" : "fillter-btn"
+                    test === "Business System" ? "text-[#FA5252]" : "fillter-btn"
                   } mr-4 md:mx-4`}
-                  onClick={() => handleSearch("Internal System")}
+                  onClick={() => handleSearch("Business System")}
                 >
-                  Internal Systems
+                  Business Systems
                 </li>
                 <li
                   className={`${
@@ -146,8 +146,11 @@ const CommonPortfilo = ({ condition, items }) => {
               onRequestClose={() => setIsOpen(false)}
               className=" outline-none flex items-center  p-4 md:p-8  rounded-2xl my-8"
             >
-              <div className=" w-full md:w-10/12 flex items-center   lg:w-[850px] bg-white dark:bg-[#323232] mx-auto rounded-xl p-4 md:p-8 absolute left-1/2 top-1/2 transform -translate-x-[50%] -translate-y-[50%] shadow-lg ">
-                <div className=" overflow-y-scroll max-h-[80vh] no-scrollbar ">
+              <div className=" w-full md:w-10/12 flex items-center   lg:w-[850px] bg-white dark:bg-[#323232] mx-auto rounded-xl p-4 md:p-8 absolute left-1/2 top-1/2 transform -translate-x-[50%] -translate-y-[50%] shadow-lg 
+              ">
+              
+                <div className=" overflow-y-scroll max-h-[  80vh] no-scrollbar "
+                style={{ height: "600px" }}>
                   {/* close button */}
                   <BsXCircle
                     onClick={() => setIsOpen(false)}
@@ -194,7 +197,8 @@ const CommonPortfilo = ({ condition, items }) => {
                       </p>
                     </div>
                   </div>
-                  <p className="dark:text-white  text-2line font-normal text-[15px] sm:text-sm  ">
+                  <p className="dark:text-white  text-2line font-normal text-[15px] sm:text-sm  "
+                  style={{ height: "500px" }}>
                     {singleData?.description}
                   </p>
                   {/* <img

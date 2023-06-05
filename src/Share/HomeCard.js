@@ -95,7 +95,7 @@ const HomeCard = () => {
             </div>
           </div>
           <a
-              href="https://drive.google.com/uc?export=download&id=1jEZHU2EhhWjHOj_xT-hmTiNafCUHgO6A"
+              href="https://drive.google.com/uc?export=download&id=14-VcKgPJ0KybzLZPDA2-SmDuJgvNQAOk"
               target="_blank"
               rel="noopener noreferrer">
           <button className="flex items-center mx-auto bg-gradient-to-r from-[#FA5252] to-[#DD2476] duration-200 transition ease-linear hover:bg-gradient-to-l from-[#DD2476]  to-[#fa5252ef] px-8 py-3 text-lg text-white rounded-[35px] mt-6">

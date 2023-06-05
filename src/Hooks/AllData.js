@@ -22,8 +22,10 @@ import workSmall101 from "../assets/images/work_images/small/work-101.png";
 import workSmall102 from "../assets/images/work_images/small/work-102.png";
 import workSmall103 from "../assets/images/work_images/small/work-103.png";
 import workSmall104 from "../assets/images/work_images/small/work-104.png";
-// import workSmall105 from "../assets/images/work_images/small/work-105.png";
+import workSmall105 from "../assets/images/work_images/small/work-105.png";
 import workSmall201 from "../assets/images/work_images/small/work-201.png";
+import workSmall202 from "../assets/images/work_images/small/work-202.png";
+import workSmall203 from "../assets/images/work_images/small/work-203.png";
 
 
 // // personal_images
@@ -36,6 +38,7 @@ import personalSmall1 from "../assets/images/personal_images/small/personal-1.pn
 import personalSmall2 from "../assets/images/personal_images/small/personal-2.png";
 import personalSmall3 from "../assets/images/personal_images/small/personal-3.png";
 import personalSmall4 from "../assets/images/personal_images/small/personal-4.png";
+import personalSmall5 from "../assets/images/personal_images/small/personal-5.png";
 
 // certificate images
 import certificate1 from "../assets/images/certificate_images/certificate-1.png";
@@ -214,22 +217,203 @@ const AllData = () => {
   // Elements for portfolio section
   const workItems = [
     {
+      id: "202",
+      tag: "Mobile App",
+      title: "BeautyGo",
+      // img: work201,
+      imgSmall: workSmall202,
+      bg: "#DCDDE2",
+      client: "BeautyGo",
+      langages: "Swift, Kotlin, NodeJS",
+      link: "http://www.beautygo.co.kr/",
+      linkText: "beautygo.co.kr",
+      description:
+      (
+        <span>
+Project duration: February 2023 - present
+<br /><br />			Project details: 
+<br /><br />			BeautyGo is a cutting-edge mobile app that revolutionizes the way users book beauty services. Designed for both customers and artists, BeautyGo offers a seamless platform with two distinct apps: the User App and the Artist App.
+<br /><br />			With the User App, individuals can easily browse and book a wide range of beauty services for themselves and their friends. Whether it's a haircut, manicure, or spa treatment, users can effortlessly find and schedule multiple services, all in one convenient location.
+<br /><br />			The Artist App caters to artists looking to showcase their services and connect with potential customers. Artists can easily register their services on the app, providing a streamlined and efficient way to showcase their skills and expand their customer base.
+<br /><br />			Project scale: medium scale with high complexity
+<br /><br />			Project URL: http://www.beautygo.co.kr/
+<br /><br />			Project type: from scratch
+<br /><br />			Project domain:
+<br /><br />			advertisement
+<br /><br />			Project role:
+<br /><br />			Project Manager, cum BA and Scrum Master
+<br /><br />			Team size: 
+<br /><br />			8 members (1 PM, 2 BE, 1 Web, 2 iOS, 2 Android)
+<br /><br />			Platforms: 
+<br /><br />			iOS: User App, Artist App
+<br /><br />			Android: User App, Artist App
+<br /><br />			Web: Admin Web
+<br /><br />			Technical: 
+<br /><br />			iOS: SWIFT
+<br /><br />			Android: KOTLIN
+<br /><br />			Web: React Typescript
+<br /><br />			Backend: Node JS, My SQL
+<br /><br />			Summary: 
+<br /><br />			-Managing and Analyzing for all tasks of iOS, Android, Backend and Web
+<br /><br />			-Mastering all Sprints at the beginning of the project
+<br /><br />			-Managing task planning, arranging tasks for each sprint based on team capacity, project timeline and client's requires as well as giving details to each task and sub-task
+<br /><br />			-Structuring Jira Version, Epic, Stories and Tasks
+<br /><br />			-Managing tasks against burndown chart
+<br /><br />			-Analyzing all storyboards for the project at the beginning
+<br /><br />			-Managing to finish the project in a tight deadline
+
+        </span>
+      ),
+    },
+    {
+      id: "203",
+      tag: "Mobile App",
+      title: "Vivid Plus",
+      // img: work201,
+      imgSmall: workSmall203,
+      bg: "#DCDDE2",
+      client: "Vivid Plus",
+      langages: "Swift, Kotlin, NodeJS",
+      link: "http://www.vivid-plus.co.kr/",
+      linkText: "vivid-plus.co.kr",
+      description:
+      (
+        <span>
+Project duration: February 2023 - present
+<br /><br />Project details: 
+<br /><br />Vivid Plus is an innovative mobile app designed to revolutionize brand advertising. With Vivid Plus, users can effortlessly access a wide range of brand advertisements, offering a seamless and convenient experience. 
+<br /><br />By leveraging this platform, brands can significantly enhance the speed and efficiency of their promotional campaigns, while simultaneously expanding their customer reach. Vivid Plus empowers brands to connect with their target audience in a more impactful and engaging manner, ultimately maximizing their advertising potential.
+<br /><br />Project scale: medium scale
+<br /><br />Project URL: http://www.vivid-plus.co.kr/
+<br /><br />Project type: from scratch
+<br /><br />Project domain:
+<br /><br />advertisement
+<br /><br />Project role:
+<br /><br />Project Manager, cum BA and Scrum Master
+<br /><br />Team size: 
+<br /><br />7 members (1 PM, 2 BE, 2 Web, 1 iOS, 1 Android)
+<br /><br />Platforms: 
+<br /><br />iOS: User App
+<br /><br />Android: User App
+<br /><br />Web: Brand Admin, Super Admin
+<br /><br />Technical: 
+<br /><br />iOS: SWIFT
+<br /><br />Android: KOTLIN
+<br /><br />Web: Angular Typescript
+<br /><br />Backend: Node JS, My SQL
+<br /><br />Summary: 
+<br /><br />-Managing and Analyzing for all tasks of iOS, Android, Backend and Web
+<br /><br />-Mastering all Sprints at the beginning of the project
+<br /><br />-Managing task planning, arranging tasks for each sprint based on team capacity, project timeline and client's requires as well as giving details to each task and sub-task
+<br /><br />-Structuring Jira Version, Epic, Stories and Tasks
+<br /><br />-Managing tasks against burndown chart
+<br /><br />-Analyzing all storyboards for the project at the beginning
+<br /><br />-Managing to finish the project in a tight deadline
+
+        </span>
+      ),
+
+    },
+    {
       id: "201",
       tag: "Mobile App",
-      title: "Market TV",
+      title: "Malllog",
       // img: work201,
       imgSmall: workSmall201,
-      bg: "#FFFAE9",
+      bg: "#DCDDE2",
       client: "Malllog",
-      langages: "Swift, Kotlin, MongoDB",
+      langages: "Swift, Kotlin, NodeJS",
       link: "https://malllog.net",
       linkText: "malllog.net",
       description:
-        "Malllog is a social media platform which entertains users through video sharing content and allows sellers to promote their products through Market TV, Challenges and Matchings.In addition, Malllog provides Marketplace features to sellers hence they can build their stores, manage products and setup contents through Seller CMS admin.",
+      (
+        <span>
+Project duration: September 2022 - present
+<br /><br />Project details: 
+<br /><br />Malllog is a social media platform which entertains users through video sharing content and allows sellers to promote their products through Market TV, Challenges and Matchings.
+<br /><br />In addition, Malllog provides Marketplace feature to sellers hence they can build their stores, manage products and setup contents through Seller CMS admin.
+<br /><br />Malllog is a user-generated content app where users create and edit their own videos and share them with other users.
+<br /><br />Project scale: medium scale with high complexity
+<br /><br />Project URL: https://malllog.net/
+<br /><br />Project type: Maintenance and improvement
+<br /><br />Project domain:
+<br /><br />social media and video sharing
+<br /><br />Project role:
+<br /><br />Project Manager, cum BA, Tester and Designer
+<br /><br />Team size: 
+<br /><br />8 members (1 PM, 2 BE, 1 Web, 2 iOS, 2 Android)
+<br /><br />Platforms: 
+<br /><br />iOS: User App, Seller App
+<br /><br />Android: User App, Seller App
+<br /><br />Web: Seller Admin, Super Admin
+<br /><br />Technical: 
+<br /><br />iOS: SWIFT
+<br /><br />Android: KOTLIN
+<br /><br />Web: Angular JS
+<br /><br />Backend: Node JS, Mongo DB
+<br /><br />Achievements: 
+<br /><br />-Transferring a Failed project to a Success project
+<br /><br />-Fixing lots of bugs on iOS, Android, Admin sites and Backend
+<br /><br />-Performing numerous updates based on client’s requests
+<br /><br />-Revamping logic flows for Backend and Web development
+<br /><br />-Building full storyboards from no storyboard project
+<br /><br />-Building UX/UI for Mobile Apps and Websites
+<br /><br />-Reviewing all features and improving their flows
+<br /><br />-Managing to finish the project in a tight deadline
+<br /><br />-Building Test Cases for the project
+
+        </span>
+      ),
     },
     {
+      id: "104",
+      tag: "Web Application",
+      title: "AI Color Confirm",
+      // img: work104,
+      imgSmall: workSmall104,
+      bg: "#DCDDE2",
+      client: "Brickmate",
+      langages: "Angular, PHP, MySQL",
+      link: "https://colorconfirm.com",
+      linkText: "colorconfirm.com",
+      description:
+      (
+        <span>
+Project duration: July 2022 - December 2023
+<br /><br />Project details: 
+<br /><br />The AI Color Confirmation service is a revolutionary color comparison solution that enables users to effortlessly compare fabric colors without the need for colorists. By harnessing the power of advanced algorithms, this service offers a time-saving and cost-effective alternative for users, eliminating the traditional reliance on subjective human assessments.
+<br /><br />With the AI Color Confirmation service, users can expect objective and accurate figures and results, ensuring a reliable and consistent approach to color comparison. The algorithm program analyzes and compares the colors of different fabrics, providing users with an efficient and convenient solution that streamlines their decision-making process.
+<br /><br />Project scale: medium scale
+<br /><br />Project URL: https://colorconfirm.com/
+<br /><br />Project type: from scratch
+<br /><br />Project domain:
+<br /><br />textile
+<br /><br />Project role:
+<br /><br />Project Manager, cum BA and Tester
+<br /><br />Team size: 
+<br /><br />5 members (1 PM, 2 BE, 2 Web)
+<br /><br />Platforms: 
+<br /><br />Web: User Web, Admin Web
+<br /><br />Technical: 
+<br /><br />Web: Angular JS
+<br /><br />Backend: PHP, My SQL
+<br /><br />Summary: 
+<br /><br />-Managing and Analyzing for all tasks of iOS, Android, Backend and Web
+<br /><br />-Mastering all Sprints of the project
+<br /><br />-Managing task planning, arranging tasks for each sprint based on team capacity, project timeline and client's requires as well as giving details to each task and sub-task
+<br /><br />-Structuring Jira Version, Epic, Stories and Tasks
+<br /><br />-Managing tasks against burndown chart
+<br /><br />-Analyzing all storyboards for the project
+<br /><br />-Managing to finish the project in a tight deadline
+<br /><br />-Building Test Cases for the project
+
+        </span>
+      ),
+    },
+    
+    {
       id: "1",
-      tag: "Internal System",
+      tag: "Business System",
       title: "Fulfilment System",
       // img: work1,
       imgSmall: workSmall1,
@@ -239,67 +423,138 @@ const AllData = () => {
       link: "https://fulfilment.tpf.com.au/",
       linkText: "fulfilment.tpf.com.au",
       description:
-        "This is my special project, the one that I would love to delegate my whole life for it with my legendary Fulfilment team.\n\n" +
-        "TPF Sports Fulfillment system is a set of processes, technologies, and personnel used to handle and complete orders for Australian sporting clubs. \n\n" +
-        "This typically includes receiving and processing orders, picking and packing products, shipping them to the customer, and handling returns or exchanges. \n\n" +
-        "Our goal was to ensure that orders are processed quickly, accurately, and efficiently, while also providing a pleasant customer experience to clubs and their members.\n\n" +
-        "Fulfillment systems can be highly complex, with multiple stages of order processing, inventory management, and shipping logistics that need to be carefully coordinated and integrated.\n\n" +
-        "With Personalisation system, Fulfilment Portal, Parcel Tracker, Shipment Management system, Loyalty Management system, WMS and Production system, TPF Sports Fulfilment system was one of strongest Fulfilment platforms in Australia.\n\n" +
-        "URL: https://fulfilment.tpf.com.au/\n" +
-        "Domain: Sports\n" +
-        "Involvement: Phase 2: system improvement and new feature development\n\n" +
-        "Achievements\n" +
-        "-Improving Fulfilment system's functions\n" +
-        "-Building Personalisation system\n" +
-        "-Building Fulfilment Portal for clubs’ self administration\n" +
-        "-Improving Parcel Tracker\n" +
-        "-Building Shipment Management system\n" +
-        "-Building Loyalty Management system\n" +
-        "-Building Production system",
-    },    
+      (
+        <span>
+Project duration: July 2017 - January 2020
+<br /><br />Project details: 
+<br /><br />TPF Sports Fulfillment system is highly complex, with multiple stages of order processing, inventory management, and shipping logistics that need to be carefully coordinated.
+<br /><br /> It integrated multiple internal systems and third party data suppliers to handle and complete orders for Australian sporting clubs. 
+<br /><br />This typically includes receiving and processing orders, picking and packing products, shipping them to the customer, and handling returns or exchanges quickly, accurately, and efficiently. 
+<br /><br />With Personalisation system, Fulfilment Portal, Parcel Tracker, Shipment Management system, Loyalty Management system, WMS and Production system, TPF Sports Fulfilment system was one of strongest Fulfilment platforms in Australia.
+<br /><br />Project scale: medium scale with high complexity 
+<br /><br />Project URL: https://fulfilment.tpf.com.au/
+<br /><br />Project type: from scratch
+<br /><br />Project domain:
+<br /><br />sports
+<br /><br />Project role:
+<br /><br />Project Manager, cum BA and Tester
+<br /><br />Team size: 
+<br /><br />7 members (1 PM, 1 BA, 1 Frontend, 1 Backend, 1 DB, 2 Testers)
+<br /><br />Platforms: 
+<br /><br />Web: User Web, Admin Web
+<br /><br />Technical: 
+<br /><br />ASP.NET, SQL Server
+<br /><br />Achievements: 
+<br /><br />-Improving Fulfilment system's features and functions
+<br /><br />-Building Personalisation system
+<br /><br />-Building Fulfilment Portal for clubs’ self administration
+<br /><br />-Building Parcel Tracker
+<br /><br />system
+<br /><br />-Building Shipment Management system
+<br /><br />-Building Loyalty Management system
+<br /><br />-Building Production system
+<br /><br />-Building Fulfilment and Financial reports on Portal
+<br /><br />-Building On-demand related features
+
+        </span>
+      ),
+    },   
     {
-      id: "2",
-      tag: "Internal System",
-      title: "Production System",
-      // img: work2,
-      imgSmall: workSmall2,
-      bg: "#E7D4BD",
-      client: "TPF Group",
+      id: "103",
+      tag: "Web Application",
+      title: "Mber+ Platform",
+      // img: work103,
+      imgSmall: workSmall103,
+      bg: "#DCDDE2",
+      //bg: "#FFF3FC",
+      client: "TPF Sport",
       langages: ".NET, C#, SQL Server",
-      link: "https://production.tpf.com.au/",
-      linkText: "production.tpf.com.au",
+      link: "https://mberplus.com.au/",
+      linkText: "mberplus.com.au",
       description:
-        "Production System was built in to create an advantage edge to TPF Fulfilment Membership business. In stead of processing standard item lists to members, Production System allows TPF Fulfilment to produce Personalised Items to members. With multiple production methods such as printing, embroidery and laser-engraving, Production System had been continuously upgraded to satisfy new production models. Managing personalised items to process correct items to correct members is another aspect which had been solved by Production System.",
-    },
-    
+      (
+        <span>
+Project duration: February 2020 - May 2022
+<br /><br />Project details: 
+<br /><br />Mber+ is an exciting web project that seamlessly integrates the membership data of Australian Sport Clubs with the Mber+ Shop & Admin and TPF Fulfillment system. This powerful integration brings forth a groundbreaking experience for members, revolutionizing how they redeem their membership packs, rewards, and shop for sports items.
+<br /><br />With Mber+, members can enjoy a comprehensive platform that consolidates their membership information, making it easily accessible and user-friendly. The Mber+ Shop & Admin feature offers a seamless and intuitive interface, empowering members to effortlessly browse and select from a wide range of sports-related products and merchandise.
+<br /><br />Project scale: medium scale with high complexity
+<br /><br />Project URL: https://mberplus.com.au/
+<br /><br />Project type: from scratch 
+<br /><br />Project domain:
+<br /><br />sports
+<br /><br />Project role:
+<br /><br />Project Manager
+<br /><br />Team size: 
+<br /><br />12 members (1 PM, 1 BA, 3 Frontend, 3 Backend, 1 DB, 3 Testers)
+<br /><br />Platforms: 
+<br /><br />Web: User Web, Admin Web
+<br /><br />Technical: 
+<br /><br />ASP.NET, SQL Server
+<br /><br />Summary: 
+<br /><br />-Building Shop template
+<br /><br />-Building complex Admin template
+<br /><br />-Integrating with 3rd party data providers
+<br /><br />-Integrating with Payment Gateways
+<br /><br />-Integrating with Fulfilment system
+<br /><br />-Integrating with Parcel Tracker system
+<br /><br />-Building Personalisation feature
+<br /><br />-Building My account feature for members
+<br /><br />-Building complicated membership packages
+<br /><br />-Building administrative features for clubs
+<br /><br />-Building report features for Admin system
+<br /><br />-Building On-demand related features
+
+        </span>
+      ),
+    }, 
     {
-      id: "3",
-      tag: "Internal System",
-      title: "Shipment Management",
-      // img: work3,
-      imgSmall: workSmall3,
-      bg: "#FEF2F2",
-      client: "TPF Group",
+      id: "103",
+      tag: "Web Application",
+      title: "Cricket Blast Shop",
+      // img: work103,
+      imgSmall: workSmall105,
+      bg: "#DCDDE2",
+      //bg: "#FFF3FC",
+      client: "Cricket Blast",
       langages: ".NET, C#, SQL Server",
-      link: "https://shipment.tpf.com.au/",
-      linkText: "shipment.tpf.com.au",
+      link: "https://shop.cricketblast.com.au/",
+      linkText: "shop.cricketblast.com.au",
       description:
-        "In Covid-19 period, shipment management quickly became chaotic topic with long delays and high transportation costs. TPF Group had to adapt by changing shipment method from Air Freight to Sea Freight and breaking down shipping process into smaller pieces for saving costs. That brought in the requirement of a system that could manage all shipments in details to advise clients and members in a timely manner and support Finance team in controlling shipment costs. That was how Shipment Management system was built.",
-    },
-    {
-      id: "4",
-      tag: "Internal System",
-      title: "Quotation system",
-      // img: work4,
-      imgSmall: workSmall4,
-      bg: "#E0CAF9",
-      client: "TPF Group",
-      langages: ".NET, C#, SQL Server",
-      link: "https://quotation.tpf.com.au/",
-      linkText: "quotation.tpf.com.au",
-      description:
-        "This is my first project which I has started my Project Management career. Quotation system was built to assist Account Managers to quickly advise quotations to clients with ease and convenience. Connecting to product system and supplier system as well as getting updated regularly, quotation system creates significant advantages in winning orders for TPF business.",
-    },
+      (
+        <span>
+Project duration: March 2020 - December 2020
+<br /><br />Project details: 
+<br /><br />Cricket Blast Shop is the ultimate destination for participants to redeem their exclusive membership packs. With a wide range of products available, cricket centers can easily purchase top-quality equipment and packs from Cricket Blast Australia, ensuring they have everything they need for a thrilling cricket experience.
+<br /><br />Project scale: medium scale
+<br /><br />Project URL: https://shop.cricketblast.com.au/
+<br /><br />Project type: from scratch
+<br /><br />Project domain:
+<br /><br />sports
+<br /><br />Project role:
+<br /><br />Project Manager, cum BA and Tester
+<br /><br />Team size: 
+<br /><br />8 members (1 PM, 2 Frontend, 2 Backend, 1 DB, 2 Testers)
+<br /><br />Platforms: 
+<br /><br />Web: User Web, Admin Web
+<br /><br />Technical: 
+<br /><br />ASP.NET, SQL Server
+<br /><br />Summary: 
+<br /><br />-Developing a comprehensive project plan that included timelines and resource allocation
+<br /><br />-Ensuring the project meets all of Cricket Australia's strict requirements
+<br /><br />-Successfully managing operation and Fulfilment of the Shop
+<br /><br />-Leading a cross-functional team of designers, developers, operation team and warehouse team to ensure that all deliverables were completed on time and to the highest standards
+<br /><br />-Building Personalisation system
+<br /><br />-Integrating with Fulfilment system
+<br /><br />-Integrating with 3rd party data providers
+<br /><br />-Building Admin system
+<br /><br />-Building report features for Admin system
+<br /><br />-Integrating with Payment Gateway
+<br /><br />-Building core features for Mber+ project
+
+        </span>
+      ),
+    }, 
     {
       id: "101",
       tag: "Web Application",
@@ -315,6 +570,50 @@ const AllData = () => {
         "Client Fulfilment Portal was built to aim club admins to manage membership orders as well as membership details. By having Client Fulfilment Portal, club admins can now manage members' expectation and inquiries with ease. In addition, the portal has many built-in reports which offer clubs convenience in their decision making.",
     },
     {
+      id: "2",
+      tag: "Business System",
+      title: "Production System",
+      // img: work2,
+      imgSmall: workSmall2,
+      bg: "#E7D4BD",
+      client: "TPF Group",
+      langages: ".NET, C#, SQL Server",
+      link: "https://production.tpf.com.au/",
+      linkText: "production.tpf.com.au",
+      description:
+        "Production System was built in to create an advantage edge to TPF Fulfilment Membership business. In stead of processing standard item lists to members, Production System allows TPF Fulfilment to produce Personalised Items to members. With multiple production methods such as printing, embroidery and laser-engraving, Production System had been continuously upgraded to satisfy new production models. Managing personalised items to process correct items to correct members is another aspect which had been solved by Production System.",
+    },
+    
+    {
+      id: "3",
+      tag: "Business System",
+      title: "Shipment Management",
+      // img: work3,
+      imgSmall: workSmall3,
+      bg: "#FEF2F2",
+      client: "TPF Group",
+      langages: ".NET, C#, SQL Server",
+      link: "https://shipment.tpf.com.au/",
+      linkText: "shipment.tpf.com.au",
+      description:
+        "In Covid-19 period, shipment management quickly became chaotic topic with long delays and high transportation costs. TPF Group had to adapt by changing shipment method from Air Freight to Sea Freight and breaking down shipping process into smaller pieces for saving costs. That brought in the requirement of a system that could manage all shipments in details to advise clients and members in a timely manner and support Finance team in controlling shipment costs. That was how Shipment Management system was built.",
+    },
+    {
+      id: "4",
+      tag: "Business System",
+      title: "Quotation system",
+      // img: work4,
+      imgSmall: workSmall4,
+      bg: "#E0CAF9",
+      client: "TPF Group",
+      langages: ".NET, C#, SQL Server",
+      link: "https://quotation.tpf.com.au/",
+      linkText: "quotation.tpf.com.au",
+      description:
+        "This is my first project which I has started my Project Management career. Quotation system was built to assist Account Managers to quickly advise quotations to clients with ease and convenience. Connecting to product system and supplier system as well as getting updated regularly, quotation system creates significant advantages in winning orders for TPF business.",
+    },
+    
+    {
       id: "102",
       tag: "Web Application",
       title: "Membership Parcel Tracker",
@@ -328,35 +627,8 @@ const AllData = () => {
       description:
         "Membership Parcel Tracker is a place where members can easily track their membership parcels with a high level of tracking details. With Membership Parcel Tracker, members can know exactly where their current membership packages are and receive notifications when parcels nearly arrive. It helps members save their time and efforts of contacting clubs' admins and improves customer experience towards building clubs' brandings.",
     },
-    {
-      id: "103",
-      tag: "Web Application",
-      title: "Mber+ Platform",
-      // img: work103,
-      imgSmall: workSmall103,
-      bg: "#DCDDE2",
-      //bg: "#FFF3FC",
-      client: "TPF Sport",
-      langages: ".NET, C#, SQL Server",
-      link: "https://mberplus.com.au/",
-      linkText: "mberplus.com.au",
-      description:
-        "Mber + Platform introduces members of sport clubs to a brand-new Member experience. Members can say goodbye to the standard Membership Pack and hello to an exclusive Members Shop where Members can build their own pack, customising it exactly to their liking. Each Membership Package has a certain number of credits allocated which can then be redeemed on items within the Member Shop. Every item within the shop will have a variety of artwork designs, so you can choose your favourite.",
-    },
-    {
-      id: "104",
-      tag: "Web Application",
-      title: "AI Color Confirm",
-      // img: work104,
-      imgSmall: workSmall104,
-      bg: "#DCDDE2",
-      client: "Brickmate",
-      langages: "Angular, PHP, MySQL",
-      link: "https://colorconfirm.com",
-      linkText: "colorconfirm.com",
-      description:
-        "AI Color Confirmation service is a color comparison service which allows users to compare fabric's colors without involvement of colorists. By using algorithm programs, the comparison service will offer time-saving and cost-effective solutions for users as well as objective figures and results.",
-    },
+   
+
     // {
     //   id: "105",
     //   tag: "Web Application",
@@ -430,6 +702,20 @@ const AllData = () => {
       linkText: "todayfruit-store.vercel.app",
       description:
         "This is my personal E-Commerce project. This project will teach me more about programming for a E-Commerce site as well as E-Commerce features.",
+    },
+    {
+      id: "5",
+      tag: "Portfolio",
+      title: "My CV",
+      // img: personal2,
+      imgSmall: personalSmall5,
+      bg: "#F5F6F8",
+      client: "Josh Tran",
+      langages: "HTML, CSS, Bootstrap",
+      link: "https://tranhongtri-cv.vercel.app/",
+      linkText: "tranhongtri-cv",
+      description:
+        "This is my CV online.",
     },
   ];
   const [personaldata, setPersonalData] = useState(personalItems);
@@ -665,7 +951,7 @@ const AllData = () => {
       id: "2",
       icon: icon6,
       title: "App Development",
-      des: "Internal Systems, Web Apps, CMS Admins and Mobile Apps",
+      des: "Business Systems, Web Apps, CMS Admins and Mobile Apps",
       color: "#FF75D8",
       bg: "#FFF0F8",
     },

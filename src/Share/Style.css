@@ -1,4 +1,4 @@
-.brand-img{
+.brand-img {
   max-width: 100% !important;
   width: auto !important;
   height: auto !important;
@@ -48,12 +48,13 @@
 
 /* Hide scrollbar for IE, Edge and Firefox */
 .no-scrollbar {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 
 /* width */
-.scrollbarLight::-webkit-scrollbar, .scrollbarDark::-webkit-scrollbar {
+.scrollbarLight::-webkit-scrollbar,
+.scrollbarDark::-webkit-scrollbar {
   width: 10px;
   height: 10px;
 }
@@ -76,8 +77,6 @@
   background: #cfd0d3;
 }
 
-
-
 /* Track */
 .scrollbarDark::-webkit-scrollbar-track {
   border-radius: 100vh;
@@ -96,30 +95,26 @@
   background: #111111;
 }
 
-
-.text-2line{
-  overflow: hidden;
+.text-2line {
+  overflow: auto;
   display: -webkit-box;
   -webkit-line-clamp: 10;
   -webkit-box-orient: vertical;
 }
-.linked{
+.linked {
   color: white !important;
 }
 /* input:-internal-autofill-selected {
   background: transparent !important;
 } */
 input:-webkit-autofill,
-input:-webkit-autofill:hover, 
-input:-webkit-autofill:focus
- {
-
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
   -webkit-text-fill-color: gray;
   -webkit-box-shadow: 0 0 0px 1000px transparent inset;
   transition: background-color 5000s ease-in-out 0s;
   background: none !important;
 }
-
 
 @media screen and (min-width: 640px) {
   .swiper-container {
